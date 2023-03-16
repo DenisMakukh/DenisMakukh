@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/114257585/225653899-000f9ef3-e720-48ed-a7a2-43961f2fa2d7.png)
+![image](https://user-images.githubusercontent.com/114257585/225668585-105afb0a-965c-41ef-88b6-7b0e71ac6a63.png)
 
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500"/>
