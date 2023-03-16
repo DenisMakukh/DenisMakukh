@@ -1,9 +1,10 @@
-<image src="/header.png" alt="Текст с описанием картинки">
+![image](https://user-images.githubusercontent.com/114257585/225653899-000f9ef3-e720-48ed-a7a2-43961f2fa2d7.png)
 
-
-<div id="header" align="center">
+<div id="header" align="right">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500"/>
 </div>
+![Uploading image.png…]()
+
 
 ### :man_technologist: About Me :
 I am a Java Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Russia.
