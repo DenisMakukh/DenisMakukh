@@ -1,24 +1,234 @@
-![image](https://user-images.githubusercontent.com/114257585/225668585-105afb0a-965c-41ef-88b6-7b0e71ac6a63.png)
+# Denis Makukh
 
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500"/>
-</div>
+## Senior Backend Developer / Java & Kotlin Developer / Solution Architect
 
+Hi, I’m Denis — a Senior Backend Developer and solution architect focused on building scalable backend systems, platform services, distributed architectures and business-critical integrations.
 
-### :man_technologist: About Me :
-I am a Java Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Russia.
+I currently work at **Yandex**, where I develop and architect an internal HR and workforce management platform for logistics operations across Yandex Market, Yandex Lavka and related business units.
 
-- :telescope: I'm learing in HSE in Moscow.
+My main interests are backend engineering, system architecture, distributed systems, orchestration, event-driven design, access management, workforce automation and building products that create measurable business value.
 
-- :zap: In my free time, I play Hockey with my city's team.
+---
 
-- :man_technologist: Stack:
-#### Java, Spring Framework, Python, PostgreSQL, MySQL, Maven, Gradle, Git
+## What I do
 
-- :mailbox: My contacts:
+- Design and develop backend services in **Java** and **Kotlin**
+- Build distributed systems and platform services
+- Architect integrations between internal and external systems
+- Work with event-driven architectures, Kafka and Temporal
+- Design domain models, access control models and service boundaries
+- Decompose complex initiatives into clear engineering tasks
+- Technically lead development teams
+- Build monitoring, dashboards and production observability
+- Connect engineering decisions with business value
 
-[![Telegram](https://img.shields.io/badge/-Telegram-090909?style=for-the-badge&logo=telegram&logoColor=27A0D9)](https://t.me/denvader)
-[![VK](https://img.shields.io/badge/-Vkontakte-090909?style=for-the-badge&logo=Vk&logoColor=4F7DB3)](https://vk.com/denya_makukh)
+---
 
+## Current role
 
-<a href="https://samy.pl"><img src="https://raw.githubusercontent.com/samyk/samyk/main/.../c.svg" width="100%" height="100%"></a>
+### Senior Backend Developer / Solution Architect at Yandex
+
+I work on a workforce management platform for logistics facilities. The platform supports operational processes across more than **1,600 logistics locations** and processes millions of events per month.
+
+The system is involved in employee and contractor lifecycle processes, access management, attendance tracking, slot distribution, fact-based work accounting and integrations with internal Yandex services and external access control systems.
+
+Key areas of responsibility:
+
+- backend architecture and development in Java/Kotlin;
+- service design and integration architecture;
+- orchestration of business processes with Temporal;
+- event-driven integrations with Kafka;
+- integration with Yandex Passport and internal services;
+- external access control system integration;
+- domain-based access control and role management;
+- technical leadership of a 4-person engineering team;
+- task decomposition, estimation and sprint planning;
+- production monitoring and operational dashboards.
+
+---
+
+## Selected impact
+
+### Account management platform
+
+Designed and implemented a service for creating restricted Yandex accounts in a dedicated partition for logistics employees and contractors.
+
+Previously, standard accounts were used for these scenarios, which created additional cost and operational overhead. The new account model provides only the permissions required for specific warehouse and logistics workflows.
+
+Estimated impact: **up to 7.5M RUB annual savings**.
+
+Technical scope:
+
+- integration with Yandex Passport;
+- role assignment workflows;
+- integration with adjacent internal systems;
+- process orchestration via Temporal;
+- Kafka-based asynchronous communication;
+- fault-tolerant lifecycle management.
+
+---
+
+### Domain-based access model
+
+Designed a domain model that isolates business logic and permissions by different nodes of the organizational and logistics hierarchy.
+
+Examples of hierarchy nodes:
+
+- Yandex Market;
+- Yandex Lavka;
+- city-level nodes;
+- logistics facilities;
+- partner sorting centers;
+- other operational units.
+
+This model allows roles to be granted precisely for specific parts of the business hierarchy, instead of managing access globally or duplicating logic for each business unit.
+
+Business impact:
+
+- faster onboarding of new business units;
+- reduced time-to-market for new operational scenarios;
+- simpler access management;
+- cleaner domain boundaries;
+- better scalability of the platform.
+
+---
+
+### Slot distribution and attendance accounting
+
+Designed and implemented a slot distribution module for Yandex Lavka workforce operations.
+
+The module receives workforce demand generated by ML engineers, provides administrative tools for slot management and automatically distributes slots between contractors based on business demand and operational constraints.
+
+The system also supports attendance tracking and fact-based work accounting using data from external systems.
+
+Estimated impact: **around 200M RUB annual savings** through better workforce allocation, reduced manual work and improved planning accuracy.
+
+Core logic includes:
+
+- demand-based slot allocation;
+- contractor preferences;
+- availability and restrictions;
+- business priorities;
+- facility-level constraints;
+- attendance and fact-based work validation.
+
+---
+
+## Tech stack
+
+### Languages
+
+- Java 25
+- Kotlin
+- Go
+- Python
+- Bash
+
+### Backend
+
+- Spring Boot
+- Hibernate
+- JPQL
+- NamedParameterJdbcTemplate
+- FastAPI
+- REST API
+- SOAP
+
+### Databases and storage
+
+- PostgreSQL
+- ClickHouse
+- Redis
+- Cassandra
+- YT
+- S3
+
+### Messaging and orchestration
+
+- Kafka
+- Temporal
+- RabbitMQ
+- Quartz
+
+### Infrastructure
+
+- Yandex Deploy
+- Docker
+- CI/CD
+- Linux
+
+### Architecture
+
+- Distributed systems
+- Microservices
+- Event-driven architecture
+- DDD
+- RBAC
+- Domain-based access control
+- Workflow orchestration
+- System integration design
+
+---
+
+## Previous experience
+
+Before Yandex, I worked on backend systems in infrastructure, security and data-heavy products.
+
+### RTK IT
+
+Worked on a data platform and Cluster Manager — a Java/Spring Boot application similar to Apache Ambari.
+
+Highlights:
+
+- developed cluster management features;
+- automated Hadoop component deployment;
+- worked with Zookeeper, HDFS, YARN and Hive;
+- implemented Kerberos authentication support for Cassandra;
+- built a Go monitoring agent for host-level service checks.
+
+### Digital Security Research
+
+Worked as a backend developer and team lead on Hide.Digital, a product for digital footprint analysis.
+
+Highlights:
+
+- developed backend services with Python and FastAPI;
+- designed APIs and service integrations;
+- led backend development;
+- performed code reviews;
+- integrated frontend, payment systems and external APIs.
+
+### NTC Vulkan
+
+Worked on parsing infrastructure and backend services.
+
+Highlights:
+
+- optimized asynchronous data processing;
+- integrated Kafka-based parser management;
+- improved storage efficiency with PostgreSQL and S3;
+- helped reduce technical debt through service architecture improvements.
+
+---
+
+## What I’m looking for
+
+I’m interested in roles where I can combine backend engineering, architecture and technical leadership.
+
+The most relevant directions for me are:
+
+- Solution Architect
+- Lead Backend Developer
+- Team Lead
+- CTO-track roles
+- Early-stage or high-growth products
+- Complex platforms with real business impact
+
+I enjoy taking ownership of technically complex products, building systems from scratch, improving existing architectures and turning business problems into reliable engineering solutions.
+
+---
+
+## Contacts
+
+- Telegram: https://t.me/denvader
+- GitHub: https://github.com/DenisMakukh
